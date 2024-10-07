@@ -28,7 +28,7 @@ const TextInput = ({ extractKeywords }) => {
         bg='gray.100'
         padding={4}
         marginTop={5}
-        height={200}
+        height='40vh'
         color='black'
         value={text}
         onChange={(e) => setText(e.target.value)}
